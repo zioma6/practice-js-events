@@ -14,3 +14,7 @@ Nasłuchuj również element `<body/>` na kliknięcie. W momencie kiedy kliknię
 
 Dodaj efekt odstępu czasowego pomiędzy kliknięciem, a zmianą koloru. Wykorzystaj `setTimeout` oraz dane zapisane w `dataset` każdego z `div-ów`. Uważaj na kontekst dla `this` oraz pierwszy parametr dla callback-a - możliwe, że będzie potrzebna użyć dodatkowej zmiennej.
 
+&nbsp;
+
+> Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://github.com/devmentor-pl/practice-js-events)
+
