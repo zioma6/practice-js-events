@@ -49,5 +49,5 @@ document.addEventListener('click', function(e) {
     }
 });
 statsElement.addEventListener('render', renderStats.bind(this, stats, statsElement));
-document.addEventListener('DOMContentLoaded', fireCustomEvent(statsElement, 'render'));
+document.addEventListener('DOMContentLoaded', fireCustomEvent.bind(null, statsElement, 'render'));
 
