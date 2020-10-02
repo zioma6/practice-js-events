@@ -25,6 +25,9 @@ Zanim przystąpisz do zadania zapoznaj się z kodem w pliku app.js.
 Jest tam już napisana cześć kodu, która renderuje dane przechowywane w zmiennej `stats`.
 Twoim zadaniem jest tylko napisanie cześciu odpowiedzialnej za zliczanie klików.
 
+PS. W moim rozwiązaniu wykorzystuję funkcję [.bind()](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Function/bind). Jeśli chcesz się dowiedzieć więcej na jej temat to zapraszam do odwiedzenia strony [javascript.info](https://developer.mozilla.org/pl/docs/Web/JavaScript/Referencje/Obiekty/Function/bind).*
+
+
 &nbsp;
 
 > :warning: Jeśli nie posiadasz materiałów do tego zadania to znajdziesz je na stronie [devmentor.pl](https://github.com/devmentor-pl/practice-js-events)
