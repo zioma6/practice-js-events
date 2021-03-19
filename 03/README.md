@@ -4,7 +4,7 @@
 
 &nbsp;
 
-# `#03` JavaScript: Events
+# `#03` JavaScript: Zdarzenia
 
 
 Ustaw na każdym elemencie `<button />` nasłuchiwanie dla zdarzenia `click` w taki sposób, aby do każdego nasłuchiwania był przypisany ten sam callback (funkcja wywoływana po zdarzeniu).
