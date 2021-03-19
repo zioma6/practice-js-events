@@ -3,7 +3,7 @@
 
 &nbsp;
 
-# JavaScript: Events
+# JavaScript: Zdarzenia
 
 Zdarzenia (ang. Events), a w zasadzie ich obsługa to niezbędny element każdej strony.
 
@@ -23,7 +23,7 @@ Umiejętność reagowania na akcję użytkownika jest niezbędna do zbudowania n
 
 &nbsp;
 
-:arrow_left: [*poprzedni zestaw zadań (**JavaScript: DOM Elements**)*](https://github.com/devmentor-pl/practice-js-dom-elements)
+:arrow_left: [*poprzedni zestaw zadań (**JavaScript: Elementy DOM**)*](https://github.com/devmentor-pl/practice-js-dom-elements)
 
 ## Jak prawidłowo wykonać zadania?
 
