@@ -4,7 +4,7 @@
 
 &nbsp;
 
-# `#02` JavaScript: Events
+# `#02` JavaScript: Zdarzenia
 
 Ustaw nasłuchiwanie na elemencie `<div/>` w przypadku kiedy kursor myszy porusza się nad tym elementem (wielokrotnie) oraz kiedy kursor opuszcza obszar tego elementu.
 
