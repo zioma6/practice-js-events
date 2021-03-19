@@ -2,7 +2,7 @@
 
 &nbsp;
 
-# `#05` JavaScript: Events
+# `#05` JavaScript: Zdarzenia
 
 
 
