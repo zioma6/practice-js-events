@@ -4,7 +4,7 @@
 
 &nbsp;
 
-# `#01` JavaScript: Events
+# `#01` JavaScript: Zdarzenia
 
 Wyszukaj element `<button/>` i ustaw na nim nasłuchiwanie w momencie klinięcia.
 
