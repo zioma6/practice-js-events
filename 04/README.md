@@ -4,7 +4,7 @@
 
 &nbsp;
 
-# `#04` JavaScript: Events
+# `#04` JavaScript: Zdarzenia
 
 
 > Każdy z podpunktów wykonaj w przedstawionej kolejności
