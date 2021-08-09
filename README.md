@@ -1,15 +1,14 @@
-
 > :dart: *Chcę mieć absolutną pewność, że **darmowe materiały**, które publikuję, spełniają Twoje oczekiwania. Dlatego oferuję Ci ebooka o wartości 39 PLN: `Jak zostać programistą? SKUTECZNY PRZEWODNIK` w zamian za [wypełnienie ankiety](https://devmentor.pl/ankieta).*
 
 &nbsp;
 
 # JavaScript: Zdarzenia
 
-Zdarzenia (ang. Events), a w zasadzie ich obsługa to niezbędny element każdej strony.
+Zdarzenia (ang. events), a w zasadzie ich obsługa, to niezbędny element każdej strony.
 
-Czy nie chciałbyś umieć reagować na akcję użytkownika? Jak pokazać lub ukryć dany element, gdy użytkownik kliknie w przycisk powyżej? Jak powiększyć obrazek, gdy użytkownik najedzie na niego kursorem?
+Czy chcesz reagować na akcje użytkownika? Móc pokazać lub ukryć dany element, gdy użytkownik kliknie w przycisk powyżej? Powiększyć obrazek, gdy użytkownik najedzie na niego kursorem?
 
-Umiejętność reagowania na akcję użytkownika jest niezbędna do zbudowania nowoczesnej strony internetowej. Przekonaj się czy Twoja wiedza z tej dziedziny jest wystarczająca!
+Umiejętność reagowania na akcje użytkownika jest niezbędna podczas budowania nowoczesnej strony internetowej. Przekonaj się, czy Twoja wiedza z tej dziedziny jest wystarczająca!
 
 &nbsp;
 
