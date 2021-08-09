@@ -1,5 +1,3 @@
-
-
 > :star: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s1e06-js-events` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/) oraz posiadaczy [kursu JavaScript](https://devmentor.pl/p/javascript-for-beginners/)) lub na [dedykowanej grupie fb](https://www.facebook.com/groups/155234921740033). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
@@ -7,19 +5,19 @@
 # `#04` JavaScript: Zdarzenia
 
 
-> Każdy z podpunktów wykonaj w przedstawionej kolejności
+Polecenia z podpunktów wykonaj w przedstawionej kolejności.
 
 ## #04.01
 
-Utwórz nasłuchiwanie na elementy `<div/>` na zdarzenie `click`. W momencie kliknięcia na dany element (użyj `this` lub `e.currentTarget`) ma zostać dodana do niego nowa klasa `clicked`.
+Na elementach `<div/>` ustaw nasłuchiwanie na zdarzenie `click`. Kliknięcie na dany element ma powodować dodanie do niego nowej klasy `clicked` (użyj `this` lub `e.currentTarget`).
 
 ## #04.02
 
-Nasłuchuj również element `<body/>` na kliknięcie. W momencie kiedy kliknięcie następuję tylko i wyłącznie na `body` to należy usunać klasy `clicked` z każdego elementu `<div/>`;
+Kliknięcia nasłuchuj również na elemencie `<body/>`. Kiedy kliknięcie nastąpi tylko i wyłącznie na obszar `body`, usuń klasę `clicked` z każdego elementu `<div/>`.
 
 ## #04.03
 
-Dodaj efekt odstępu czasowego pomiędzy kliknięciem, a zmianą koloru. Wykorzystaj `setTimeout` oraz dane zapisane w `dataset` każdego z `div-ów`. Uważaj na kontekst dla `this` oraz pierwszy parametr dla callback-a - możliwe, że będzie potrzebna użyć dodatkowej zmiennej.
+Dodaj efekt odstępu czasowego pomiędzy kliknięciem a zmianą koloru. Wykorzystaj `setTimeout` oraz dane zapisane w `dataset` każdego z `divów`. Uważaj na kontekst dla `this` oraz pierwszy parametr dla callbacka –  możliwe, że będzie potrzebne użycie dodatkowej zmiennej.
 
 Po kliknięciu na najbardziej zagnieżdżony `<div/>` (zielone obramowanie) chcemy uzyskać efekt automatycznego zakolorowania wszystkich elementów `<div/>` w odpowiednich odstępach czasu.
 
