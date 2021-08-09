@@ -1,5 +1,3 @@
-
-
 > :star: *Jeśli będziesz mieć problem z rozwiązaniem tego zadania, poproś o pomoc na odpowiednim kanale na Slacku, tj. `s1e06-js-events` (dotyczy [mentee](https://devmentor.pl/mentoring-javascript/) oraz posiadaczy [kursu JavaScript](https://devmentor.pl/p/javascript-for-beginners/)) lub na [dedykowanej grupie fb](https://www.facebook.com/groups/155234921740033). Pamiętaj, aby treść Twojego wpisu spełniała [odpowiednie kryteria](https://devmentor.pl/jak-prosic-o-pomoc/).*
 
 &nbsp;
@@ -7,11 +5,11 @@
 # `#03` JavaScript: Zdarzenia
 
 
-Ustaw na każdym elemencie `<button />` nasłuchiwanie dla zdarzenia `click` w taki sposób, aby do każdego nasłuchiwania był przypisany ten sam callback (funkcja wywoływana po zdarzeniu).
+Na każdym elemencie `<button />` ustaw nasłuchiwanie na zdarzenie `click` w taki sposób, aby do każdego nasłuchiwania był przypisany ten sam callback (funkcja wywoływana po zdarzeniu).
 
-Wykonaj zadanie w taki sposób, że na każdym z przycisków, callback ma być wywołany tylko raz.
+Wykonaj zadanie tak, aby na każdym z przycisków callback mógł być wywołany tylko raz. Kolejne kliknięcia na przycisk nie mają powodować żadnej reakcji.
 
-W momencie wywołania zdarzenia na danym elemencie, tekst znajdujący się wew. niego ma zostać zmieniony na `clicked` oraz ten sam tekst ma się pojawić w konsoli.
+W momencie kliknięcia w przycisk tekst znajdujący się wewnątrz niego ma zostać zmieniony na `"clicked"`. Tekst `"clicked"` ma się pojawić również w konsoli.
 
 
 &nbsp;
