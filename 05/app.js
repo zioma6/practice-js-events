@@ -8,6 +8,42 @@ const stats = {
 };
 
 /* tutaj umieść swój kod */
+// Funkcja obsługująca kliknięcie w paragraf
+const handleParagraphClick = function(event) {
+    const paragraphId = event.currentTarget.dataset.id;
+
+    // Zliczanie kliknięć w paragrafy
+    if (stats.paragraphs[paragraphId] !== undefined) {
+        stats.paragraphs[paragraphId] += 1;
+    }
+
+    // Zliczanie kliknięć w linki, jeśli kliknięty element to link
+    const clickedElement = event.target;
+    if (clickedElement.tagName === 'A') {
+        event.preventDefault(); // Zapobieganie przeładowaniu strony
+
+        const linkHref = clickedElement.getAttribute('href');
+
+        // Jeśli link nie istnieje jeszcze w obiekcie stats.links, dodaj go
+        if (stats.links[linkHref] === undefined) {
+            stats.links[linkHref] = 0;
+        }
+
+        // Zwiększamy licznik kliknięć w dany link
+        stats.links[linkHref] += 1;
+    }
+
+    // Wywołanie renderowania statystyk
+    fireCustomEvent(statsElement, 'render');
+};
+
+// Pobranie wszystkich paragrafów
+const paragraphs = document.querySelectorAll('p');
+
+// Dodanie nasłuchiwania na kliknięcie dla każdego paragrafu
+paragraphs.forEach(paragraph => {
+    paragraph.addEventListener('click', handleParagraphClick);
+});
 
 
 /* nie modyfikuj kodu poniżej, ale przeanalizuj go */
